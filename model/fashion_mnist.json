@@ -1,9 +1,9 @@
 [
   {
-    "name": "flatten_2",
+    "name": "flatten_1",
     "type": "Flatten",
     "config": {
-      "name": "flatten_2",
+      "name": "flatten_1",
       "trainable": true,
       "dtype": "float32",
       "batch_input_shape": [
@@ -16,13 +16,75 @@
     "weights": []
   },
   {
+    "name": "dense_5",
+    "type": "Dense",
+    "config": {
+      "name": "dense_5",
+      "trainable": true,
+      "dtype": "float32",
+      "units": 256,
+      "activation": "relu",
+      "use_bias": true,
+      "kernel_initializer": {
+        "class_name": "GlorotUniform",
+        "config": {
+          "seed": null
+        }
+      },
+      "bias_initializer": {
+        "class_name": "Zeros",
+        "config": {}
+      },
+      "kernel_regularizer": null,
+      "bias_regularizer": null,
+      "activity_regularizer": null,
+      "kernel_constraint": null,
+      "bias_constraint": null
+    },
+    "weights": [
+      "dense_5_0",
+      "dense_5_1"
+    ]
+  },
+  {
+    "name": "dense_6",
+    "type": "Dense",
+    "config": {
+      "name": "dense_6",
+      "trainable": true,
+      "dtype": "float32",
+      "units": 128,
+      "activation": "relu",
+      "use_bias": true,
+      "kernel_initializer": {
+        "class_name": "GlorotUniform",
+        "config": {
+          "seed": null
+        }
+      },
+      "bias_initializer": {
+        "class_name": "Zeros",
+        "config": {}
+      },
+      "kernel_regularizer": null,
+      "bias_regularizer": null,
+      "activity_regularizer": null,
+      "kernel_constraint": null,
+      "bias_constraint": null
+    },
+    "weights": [
+      "dense_6_0",
+      "dense_6_1"
+    ]
+  },
+  {
     "name": "dense_7",
     "type": "Dense",
     "config": {
       "name": "dense_7",
       "trainable": true,
       "dtype": "float32",
-      "units": 128,
+      "units": 64,
       "activation": "relu",
       "use_bias": true,
       "kernel_initializer": {
@@ -53,7 +115,7 @@
       "name": "dense_8",
       "trainable": true,
       "dtype": "float32",
-      "units": 64,
+      "units": 32,
       "activation": "relu",
       "use_bias": true,
       "kernel_initializer": {
