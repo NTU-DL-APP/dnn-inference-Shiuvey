@@ -1,9 +1,9 @@
 [
   {
-    "name": "flatten_1",
+    "name": "flatten_2",
     "type": "Flatten",
     "config": {
-      "name": "flatten_1",
+      "name": "flatten_2",
       "trainable": true,
       "dtype": "float32",
       "batch_input_shape": [
@@ -16,10 +16,10 @@
     "weights": []
   },
   {
-    "name": "dense_4",
+    "name": "dense_8",
     "type": "Dense",
     "config": {
-      "name": "dense_4",
+      "name": "dense_8",
       "trainable": true,
       "dtype": "float32",
       "units": 512,
@@ -42,15 +42,15 @@
       "bias_constraint": null
     },
     "weights": [
-      "dense_4_0",
-      "dense_4_1"
+      "dense_8_0",
+      "dense_8_1"
     ]
   },
   {
-    "name": "batch_normalization_2",
+    "name": "batch_normalization_4",
     "type": "BatchNormalization",
     "config": {
-      "name": "batch_normalization_2",
+      "name": "batch_normalization_4",
       "trainable": true,
       "dtype": "float32",
       "axis": [
@@ -82,17 +82,17 @@
       "gamma_constraint": null
     },
     "weights": [
-      "batch_normalization_2_0",
-      "batch_normalization_2_1",
-      "batch_normalization_2_2",
-      "batch_normalization_2_3"
+      "batch_normalization_4_0",
+      "batch_normalization_4_1",
+      "batch_normalization_4_2",
+      "batch_normalization_4_3"
     ]
   },
   {
-    "name": "dropout_3",
+    "name": "dropout_6",
     "type": "Dropout",
     "config": {
-      "name": "dropout_3",
+      "name": "dropout_6",
       "trainable": true,
       "dtype": "float32",
       "rate": 0.4,
@@ -102,10 +102,10 @@
     "weights": []
   },
   {
-    "name": "dense_5",
+    "name": "dense_9",
     "type": "Dense",
     "config": {
-      "name": "dense_5",
+      "name": "dense_9",
       "trainable": true,
       "dtype": "float32",
       "units": 256,
@@ -128,15 +128,15 @@
       "bias_constraint": null
     },
     "weights": [
-      "dense_5_0",
-      "dense_5_1"
+      "dense_9_0",
+      "dense_9_1"
     ]
   },
   {
-    "name": "batch_normalization_3",
+    "name": "batch_normalization_5",
     "type": "BatchNormalization",
     "config": {
-      "name": "batch_normalization_3",
+      "name": "batch_normalization_5",
       "trainable": true,
       "dtype": "float32",
       "axis": [
@@ -168,17 +168,17 @@
       "gamma_constraint": null
     },
     "weights": [
-      "batch_normalization_3_0",
-      "batch_normalization_3_1",
-      "batch_normalization_3_2",
-      "batch_normalization_3_3"
+      "batch_normalization_5_0",
+      "batch_normalization_5_1",
+      "batch_normalization_5_2",
+      "batch_normalization_5_3"
     ]
   },
   {
-    "name": "dropout_4",
+    "name": "dropout_7",
     "type": "Dropout",
     "config": {
-      "name": "dropout_4",
+      "name": "dropout_7",
       "trainable": true,
       "dtype": "float32",
       "rate": 0.3,
@@ -188,10 +188,10 @@
     "weights": []
   },
   {
-    "name": "dense_6",
+    "name": "dense_10",
     "type": "Dense",
     "config": {
-      "name": "dense_6",
+      "name": "dense_10",
       "trainable": true,
       "dtype": "float32",
       "units": 128,
@@ -214,15 +214,15 @@
       "bias_constraint": null
     },
     "weights": [
-      "dense_6_0",
-      "dense_6_1"
+      "dense_10_0",
+      "dense_10_1"
     ]
   },
   {
-    "name": "dropout_5",
+    "name": "dropout_8",
     "type": "Dropout",
     "config": {
-      "name": "dropout_5",
+      "name": "dropout_8",
       "trainable": true,
       "dtype": "float32",
       "rate": 0.2,
@@ -232,10 +232,10 @@
     "weights": []
   },
   {
-    "name": "dense_7",
+    "name": "dense_11",
     "type": "Dense",
     "config": {
-      "name": "dense_7",
+      "name": "dense_11",
       "trainable": true,
       "dtype": "float32",
       "units": 10,
@@ -258,8 +258,8 @@
       "bias_constraint": null
     },
     "weights": [
-      "dense_7_0",
-      "dense_7_1"
+      "dense_11_0",
+      "dense_11_1"
     ]
   }
 ]
